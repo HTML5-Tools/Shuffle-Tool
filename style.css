@@ -1,0 +1,43 @@
+textarea {
+    height: 150px;
+    width: 500px; /* 横幅を固定 */
+    max-width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+}
+#title {
+    cursor: pointer;
+}
+.center {
+    text-align: center;
+}
+#tooltitle {
+    font-size: 3em;
+    font-weight: bold;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    color: #333;
+    margin-top: 16px;
+}
+.dist {
+    padding: 10px;
+    padding-left: 0;
+}
+#inputpanel {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+}
+.input-label-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 220px;
+    flex: 0 0 auto; /* 横幅を固定し、伸びないように */
+    max-width: 300px; /* 必要に応じて調整 */
+}
+#shuffleButton, #saveSettingsButton {
+    height: 150px;
+}

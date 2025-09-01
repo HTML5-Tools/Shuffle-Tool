@@ -1,0 +1,31 @@
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>リストシャッフルツール | HTML5 Tools</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://html5tools.netlify.app/html5tools-title.css">
+        <link rel="stylesheet" href="https://html5tools.netlify.app/html5tools-footer.css">
+        <script src="script.js" defer></script>
+        <link rel="icon" type="image/png" href="icon.png" id="icon">
+    </head>
+    <body>
+        <p class="center" id="catchcopy">だれでも、いつでも、Webで使えるツール集</p>
+        <a id="title" href="https://html5tools.netlify.app/">HTML5 Tools</a>
+        <p id="tooltitle" class="center">リストシャッフルツール</p>
+        <!-- <button id="darkModeButton"></button> -->
+        <p class="center">リストをシャッフル（ランダムに並べ替え）できるツール。</p>
+        <br>
+        <div id="inputpanel">
+            <div class="input-label-area">
+                <textarea id="list-items" class="distance" placeholder="リスト項目（1行につき一つ）"></textarea>
+            </div>
+            <input type="button" value="シャッフル" id="shuffleButton" class="distance">
+            <input type="button" value="設定・結果を保存" id="saveSettingsButton" class="distance">
+        </div>
+        <h2>結果</h2>
+        <textarea id="result" class="distance" readonly></textarea>
+        <footer>
+            <p>Copyright &copy; HTML5 Tools 2025 | ライセンス: Apache License 2.0 | <a href="https://x.gd/H5T_grp_src" download>ソースコードをダウンロード</a> | <a href="https://forms.gle/riqVmYtL7mRj38V29">フィードバック</a></p>
+        </footer>
+    </body>
+</html>
